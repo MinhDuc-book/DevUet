@@ -20,6 +20,6 @@ string Upper(string n) {
 
 int main () {
     string n ;
-    cin >> n;
+    getline(cin, n);
     cout << Upper(n);
 }
